@@ -23,6 +23,7 @@ Route::get('/login', 'WelcomeController@login');
 Route::get('/details', 'WelcomeController@details');
 Route::get('/profile', 'WelcomeController@profile');
 Route::get('/creators', 'WelcomeController@creators');
+Route::get('/store', 'WelcomeController@store');
 Route::get('/cart', 'WelcomeController@cart');
 Route::post('update-profile', 'WelcomeController@updateProfile');
 Route::get('/home', 'HomeController@index')->name('home');

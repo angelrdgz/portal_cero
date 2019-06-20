@@ -38,7 +38,7 @@
              <ul>
                 <li><a href="{{ url('/') }}" class="active">Inicio</a></li>
                 <li><a href="{{ url('universes') }}">Universos</a></li>
-                <li><a href="">Tienda</a></li>
+                <li><a href="{{ url('store') }}">Tienda</a></li>
                 <li><a href="{{ url('contact') }}">Contacto</a></li>
                 <li>
                     <a href="{{ url('profile') }}" class="no-padding">

@@ -56,6 +56,10 @@ class WelcomeController extends Controller
         return view('creators');
     }
 
+    public function store(){
+        return view('store');
+    }
+
     public function cart(){
         $total = 0;
         return view('cart', ['total'=>$total]);
